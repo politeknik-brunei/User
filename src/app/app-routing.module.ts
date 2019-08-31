@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: 'fare6', loadChildren: './fare6/fare6.module#Fare6PageModule' },
   { path: 'pick4', loadChildren: './pick4/pick4.module#Pick4PageModule' },
   { path: 'pick6', loadChildren: './pick6/pick6.module#Pick6PageModule' },
-  { path: 'homepage', loadChildren: './homepage/homepage.module#HomepagePageModule' },
+  { path: 'homepage', loadChildren: './homepage/homepage.module#HomepagePageModule' },  { path: 'bustypes', loadChildren: './bustypes/bustypes.module#BustypesPageModule' },
+
 
 ];
 
