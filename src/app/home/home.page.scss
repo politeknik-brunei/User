@@ -1,0 +1,31 @@
+img {
+    height: 30px;
+    width: 50px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 200px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  }
+
+
+ion-content{
+
+    --ion-background-color: #3498DB;
+}
+
+p{
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+ion-header{
+    text-align: center;
+    font-weight: 500;
+}
+
