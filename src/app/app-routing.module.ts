@@ -33,6 +33,8 @@ const routes: Routes = [
   { path: 'signup-page', loadChildren: './signup-page/signup-page.module#SignupPagePageModule' },
   { path: 'mainloginsignup-page', loadChildren: './mainloginsignup-page/mainloginsignup-page.module#MainloginsignupPagePageModule' },
   { path: 'bustypes', loadChildren: './bustypes/bustypes.module#BustypesPageModule' },
+  { path: 'bustypes', loadChildren: './bustypes/bustypes.module#BustypesPageModule' },
+  { path: 'totalpayment2', loadChildren: './totalpayment2/totalpayment2.module#Totalpayment2PageModule' },
 
 
 ];
