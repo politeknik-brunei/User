@@ -35,6 +35,7 @@ const routes: Routes = [
   { path: 'bustypes', loadChildren: './bustypes/bustypes.module#BustypesPageModule' },
   { path: 'bustypes', loadChildren: './bustypes/bustypes.module#BustypesPageModule' },
   { path: 'totalpayment2', loadChildren: './totalpayment2/totalpayment2.module#Totalpayment2PageModule' },  { path: 'totalpaymentbus', loadChildren: './totalpaymentbus/totalpaymentbus.module#TotalpaymentbusPageModule' },
+  { path: 'qrcodebus', loadChildren: './qrcodebus/qrcodebus.module#QrcodebusPageModule' },
 
 
 
