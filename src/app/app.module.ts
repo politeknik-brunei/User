@@ -7,6 +7,8 @@ import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { PayPal } from '@ionic-native/paypal/ngx';
+
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -38,6 +40,7 @@ import { UserService } from './user.service';
   providers: [
     StatusBar,
     SplashScreen,
+    PayPal,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     UserService
   ],
