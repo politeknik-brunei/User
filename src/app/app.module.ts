@@ -13,6 +13,12 @@ import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 
+import { EmailComposer } from '@ionic-native/email-composer/ngx';
+
+// import { Contacts } from '@ionic-native/contacts/ngx';
+import { CallNumber } from '@ionic-native/call-number/ngx';
+import { SMS } from '@ionic-native/sms/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -23,7 +29,10 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    EmailComposer,
+    SMS,
+    CallNumber
   ],
   bootstrap: [AppComponent]
 })

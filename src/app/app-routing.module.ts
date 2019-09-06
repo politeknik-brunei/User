@@ -8,7 +8,16 @@ const routes: Routes = [
   { path: 'fare6', loadChildren: './fare6/fare6.module#Fare6PageModule' },
   { path: 'pick4', loadChildren: './pick4/pick4.module#Pick4PageModule' },
   { path: 'pick6', loadChildren: './pick6/pick6.module#Pick6PageModule' },
-  { path: 'homepage', loadChildren: './homepage/homepage.module#HomepagePageModule' },  { path: 'bustypes', loadChildren: './bustypes/bustypes.module#BustypesPageModule' },
+  { path: 'homepage', loadChildren: './homepage/homepage.module#HomepagePageModule' },
+  { path: 'bustypes', loadChildren: './bustypes/bustypes.module#BustypesPageModule' },
+  { path: 'homepage', loadChildren: './homepage/homepage.module#HomepagePageModule' },
+  { path: 'busmap', loadChildren: './busmap/busmap.module#BusmapPageModule' },
+  { path: 'customercare', loadChildren: './customercare/customercare.module#CustomercarePageModule' },
+  { path: 'paymentsetting', loadChildren: './paymentsetting/paymentsetting.module#PaymentsettingPageModule' },
+  { path: 'userprofile-page', loadChildren: './userprofile-page/userprofile-page.module#UserprofilePagePageModule' },
+  { path: 'taxihome', loadChildren: './taxihome/taxihome.module#TaxihomePageModule' },
+  { path: 'watertaxihome', loadChildren: './watertaxihome/watertaxihome.module#WatertaxihomePageModule' },
+
 
 
 ];

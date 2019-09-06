@@ -1,0 +1,74 @@
+ion-toolbar{
+    box-shadow: 0 6px 2px -2px rgba(0,0,0,.2);
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0px;
+    padding-top: 2px;
+    
+    height: 80px;
+ 
+
+        .row:after {
+                content: "";
+                display: table;
+                clear: both;
+        }
+
+        h4{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+img{
+    width: 42px;
+    height: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 20px; 
+}
+
+
+
+
+
+//for payment option.
+
+
+
+ion-card{
+    
+    --background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    
+    
+    ion-text{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        padding-bottom: 20px;
+        
+    }
+
+    ion-item{
+        --background: rgb(255, 255, 255);
+        padding-bottom: 15px;
+        padding-top: 15px;
+
+        ion-icon{
+            padding-left: 2px;
+            padding-right: 8px;
+        }
+
+
+        ion-checkbox{
+            --background: rgb(255, 255, 255);
+
+        }
+    }
+}
+    

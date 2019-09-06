@@ -1,11 +1,41 @@
 <ion-header>
+ 
   <ion-toolbar>
-      <ion-button no fill [routerLink]="['/homepage']">
-        <ion-icon name="arrow-round-back"></ion-icon>
-      </ion-button>
-    <img src="../../assets/icon/BYTHEWAY_LOGO.jpeg" id="logo">
-   </ion-toolbar>
-   </ion-header>
+   <!-- Settings button -->
+
+      
+        <div class="row">
+         
+          <div class="column">
+                <ion-button fill="clear" [routerLink] = "['/homepage']">
+                 
+                  <ion-icon name="arrow-back"></ion-icon>
+                  Back
+                 </ion-button>
+          </div>
+
+
+          <div class="column">
+            <h4>BUS TYPES</h4>
+            <!-- <img src="assets\bytheway.png"> -->
+          
+          </div>
+              
+<!-- 
+          <div class="column">
+              <img src="assets\custser.png">
+            </div> -->
+
+          </div>
+      
+
+  
+  </ion-toolbar>
+
+
+</ion-header>
+
+
 
 <ion-content padding class="img" >
 
@@ -35,7 +65,7 @@
   </span>
 
 
-  <ion-list id="btn">
+  <ion-list id="takan">
 <div>
     <ion-button fill="no fill" [routerLink]="['/bus1map']">
         <ion-item>

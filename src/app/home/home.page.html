@@ -1,12 +1,38 @@
 <ion-header>
+ 
   <ion-toolbar>
-    <ion-title>
-      <ion-button no fill [routerLink]="['/homepage']">
-        <ion-icon name="arrow-round-back"></ion-icon>
-      </ion-button>
-      Taxi Types
-    </ion-title>
+   <!-- Settings button -->
+
+      
+        <div class="row">
+         
+          <div class="column">
+                <ion-button fill="clear" [routerLink] = "['/taxihome']">
+                 
+                  <ion-icon name="arrow-back"></ion-icon>
+                  Back
+                 </ion-button>
+          </div>
+
+
+          <div class="column">
+            <h4>TAXI TYPES</h4>
+            <!-- <img src="assets\bytheway.png"> -->
+          
+          </div>
+              
+<!-- 
+          <div class="column">
+              <img src="assets\custser.png">
+            </div> -->
+
+          </div>
+      
+
+  
   </ion-toolbar>
+
+
 </ion-header>
 
 <ion-content>
