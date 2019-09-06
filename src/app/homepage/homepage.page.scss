@@ -9,7 +9,12 @@ ion-toolbar{
         width: 33%;
         padding: 0px;
         padding-top: 2px;
-        height: 80px;
+        height: 50px;
+
+        ion-icon{
+            width: 20px;
+            height: 20px;
+        }
 
 
     .row:after {
@@ -23,8 +28,8 @@ ion-toolbar{
 
 
 img{
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -191,7 +196,6 @@ ion-button{
 
      padding: 0px;
     
-
      img{
          width: 60%;
          height: 60%;
@@ -203,6 +207,7 @@ ion-button{
          h1{
              font-family: Arial, Helvetica, sans-serif;
              font-size: 20px;    
+             font-weight: bold;
          }
          
      
@@ -220,9 +225,11 @@ ion-button{
 //text atas.
 h1{
 text-align: center;
-font-size: 25px;
+font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
 padding-top: 1px;
+padding-bottom: 5px;
+font-weight: bold;
 }
 
 

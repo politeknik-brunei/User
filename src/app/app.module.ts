@@ -46,16 +46,13 @@ import { SMS } from '@ionic-native/sms/ngx';
   providers: [
     StatusBar,
     SplashScreen,
-<<<<<<< HEAD
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     EmailComposer,
     SMS,
-    CallNumber
-=======
+    CallNumber,
     PayPal,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     UserService
->>>>>>> 17453228d99fdb3d85b0788a4f8c758d0b0a1647
   ],
   bootstrap: [AppComponent]
 })

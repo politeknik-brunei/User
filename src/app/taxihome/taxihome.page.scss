@@ -5,8 +5,8 @@ ion-toolbar{
     float: left;
     width: 33%;
     padding: 0px;
-    padding-top: 2px;
-    height: 80px;
+    // padding-top: 2px;
+    height: 50px;
 
 
         
@@ -18,8 +18,9 @@ ion-toolbar{
         }
 
         h4{
-            font-size: 20px;
+            font-size: 15px;
             text-align: center;
+            font-weight: bold;
         }
     }
 
@@ -57,13 +58,16 @@ ion-toolbar{
                 padding: none;
                 padding-bottom: 10px;
                 margin: 0 auto;
-                 h4{
+                 
+                
+            h4{
             font-size: 15px;
+            font-weight: bold;
             text-align: center;
             padding: none;
             margin: 0 auto;
-        }
             }
+        }
             
 
         img{
@@ -80,6 +84,9 @@ ion-toolbar{
 
 h1{
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
 }
         
 
