@@ -25,9 +25,13 @@ const routes: Routes = [
   { path: 'userprofile-page', loadChildren: './userprofile-page/userprofile-page.module#UserprofilePagePageModule' },
   { path: 'taxihome', loadChildren: './taxihome/taxihome.module#TaxihomePageModule' },
   { path: 'watertaxihome', loadChildren: './watertaxihome/watertaxihome.module#WatertaxihomePageModule' },
-  { path: 'aboutpage', loadChildren: './aboutpage/aboutpage.module#AboutpagePageModule' },  { path: 'uploader', loadChildren: './uploader/uploader.module#UploaderPageModule' },
+  { path: 'aboutpage', loadChildren: './aboutpage/aboutpage.module#AboutpagePageModule' },
+  { path: 'uploader', loadChildren: './uploader/uploader.module#UploaderPageModule' },
 
   // { path: 'edit-profile', loadChildren: './edit-profile/edit-profile.module#EditProfilePageModule' },
+
+  { path: 'watertaxihome', loadChildren: './watertaxihome/watertaxihome.module#WatertaxihomePageModule' },
+  { path: 'taxitypes', loadChildren: './taxitypes/taxitypes.module#TaxitypesPageModule' },
 
 
 
