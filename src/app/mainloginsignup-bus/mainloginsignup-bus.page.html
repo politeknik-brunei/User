@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+      <ion-title>
+          <img class="displayed" src="assets/bytheway.png" alt="logo">
+  
+      </ion-title>
+    </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+      <section>
+          <ion-button [routerLink]="['/signup-page']" routerDirection="forward" fill="solid" expand="block" color="light">Sign Up</ion-button>
+          </section>
+        
+          <section>
+          <ion-button [routerLink]="['/login-page']" fill="solid" expand="block" color="light" >Login</ion-button>
+          </section>
+  
+  </ion-content>
+  
