@@ -31,6 +31,7 @@
     "@ionic/angular": "^4.7.1",
     "angularfire2": "^5.2.1",
     "call-number": "^1.0.1",
+    "com.paypal.cordovan.mobilesdk": "3.5.0",
     "cordova-plugin-contacts": "^3.0.1",
     "cordova-plugin-email-composer": "^0.9.2",
     "cordova-sms-plugin": "^1.0.0",
@@ -73,7 +74,8 @@
       "cordova-plugin-contacts": {},
       "mx.ferreyra.callnumber": {},
       "cordova-sms-plugin": {},
-      "cordova-plugin-email-composer": {}
+      "cordova-plugin-email-composer": {},
+      "com.paypal.cordova.mobilesdk": {}
     }
   }
 }
