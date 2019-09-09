@@ -41,7 +41,7 @@ export class AppComponent {
 
     {
       title: "About App",
-      // url: ""
+      url: "/aboutpage"
       // icon: "account"
     },
 
