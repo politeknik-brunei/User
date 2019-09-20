@@ -13,20 +13,19 @@ export class HomepagePage implements OnInit {
 
   async presentAlert(){
     const alert = await this.alertController.create({
-      header: 'PEAK HOURS',
-      message: 'Additional $5',
+      header: 'Select type of Booking:',
       buttons: [
         {
-          text:'Cancel',
+          text:'Book Now',
           handler: () => {
-            window.location.pathname = '/homepage';
+            window.location.pathname = '/';
         }
       },
 
       {
-        text: 'Okay',
+        text: 'Advance booking',
         handler: () => {
-          window.location.pathname = '/taxihome';
+          window.location.pathname = '/';
       }
     }
   ]
